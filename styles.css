@@ -32,10 +32,12 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
-  width: 33.3%;
+  width: 33.333333333333333333333333%;
+  flex-direction: row;
 }
 
 .narrow {
@@ -75,7 +77,11 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.red {
+  background-color: red;
+}
+
+.light-blue {
   background-color: lightblue;
 }
 
@@ -87,6 +93,12 @@ h2 {
   background-color: #fff;
 }
 
+#white {
+  background-color: #fff;
+}
+
+
+
 .black {
   background-color: #000;
 }
@@ -94,15 +106,22 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+ height: 16.66%;
+ width: 100%;
+ background-color: #B5002D;
 }
 
+
 .thailand-white {
-  /* TODO */
+  height: 16.66%;
+  width: 100%;
+  background-color: #fff;
 }
 
 .thailand-blue {
-  /* TODO */
+  height: 33.4%;
+  width: 100%;
+  background-color: #2E2A4C;
 }
 
 /* END QUESTION 2 */
@@ -111,14 +130,17 @@ h2 {
 
 .romania-blue {
   background-color: #002c84;
+  height: 300px;
 }
 
 .romania-yellow {
   background-color: #ffcf00;
+  height: 300px;
 }
 
 .romania-red {
   background-color: #e10017;
+  height: 300px;
 }
 
 /* END QUESTION 3 */
@@ -126,14 +148,34 @@ h2 {
 /* QUESTION 4 */
 .mexico-green {
   background-color: #006341;
+  height: 300px;
 }
 
 .mexico-img {
-  /* TODO */
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+.mexico-white {
+  background-color: #ffffff;
+  height: 300px;
+  width: 33.4px;
 }
 
 .mexico-red {
   background-color: #ce1126;
+  height: 300px;
+}
+
+.label {
+  font-size: 20px;
+  color: blue;
+}
+
+.label:hover {
+  font-size: 50px;
+  color: green
 }
 
 /* QUESTION 6 */
@@ -161,5 +203,5 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 60px;
 }
